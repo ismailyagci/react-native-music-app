@@ -1,0 +1,31 @@
+{
+  "presets": [
+    "module:metro-react-native-babel-preset"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./app"
+        ],
+        "extensions": [
+          ".ios.ts",
+          ".android.ts",
+          ".ts",
+          ".ios.tsx",
+          ".android.tsx",
+          ".jsx",
+          ".js",
+          ".json"
+        ],
+        "alias": {
+          "core": "./app/core",
+          "pages": "./app/pages",
+          "_constants": "./app/constants",
+          "_redux": "./app/_redux"
+        }
+      }
+    ]
+  ]
+}

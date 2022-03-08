@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "core": [
+        "./app/core"
+      ],
+      "pages": [
+        "./app/pages"
+      ],
+      "_constants": [
+        "./app/constants"
+      ],
+      "_redux": [
+        "./app/_redux"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
